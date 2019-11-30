@@ -108,6 +108,7 @@ class MainGame: ApplicationAdapter() {
     override fun dispose() {
         skin.dispose()
         uiStage.dispose()
+        benchmark.dispose()
     }
 
 }

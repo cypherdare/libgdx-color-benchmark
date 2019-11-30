@@ -46,4 +46,10 @@ abstract class Benchmark : Disposable {
 
 
     abstract fun render()
+
+    override fun dispose() {
+        texture.dispose()
+        oldBatch.dispose()
+        currentBatch.dispose()
+    }
 }

@@ -24,8 +24,4 @@ class InlineRgbaBenchmark: Benchmark() {
             end()
         }
     }
-
-    override fun dispose() {
-        batch.dispose()
-    }
 }

@@ -27,8 +27,4 @@ class ColorObjectsBenchmark: Benchmark() {
             end()
         }
     }
-
-    override fun dispose() {
-        batch.dispose()
-    }
 }
